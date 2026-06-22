@@ -1,0 +1,27 @@
+<script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['India', 'China', 'USA', 'Indonesia', 'Pakistan'],
+                datasets: [{
+                    label: 'Population (Millions)',
+                    data: [1428, 1425, 339, 277, 240],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
+index.html
+HTML
