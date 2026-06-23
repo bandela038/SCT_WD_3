@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Test</title>
-</head>
-<body>
-<h1>Hello Soumya!</h1>
-<p>GitHub Pages Working</p>
-</body>
-</html>
+import matplotlib.pyplot as plt
+
+countries = ["India", "China", "USA", "Indonesia", "Pakistan"]
+population = [1428, 1425, 339, 277, 240]
+
+plt.bar(countries, population)
+plt.title("Population Distribution")
+plt.xlabel("Countries")
+plt.ylabel("Population")
+plt.show()
